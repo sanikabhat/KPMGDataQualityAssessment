@@ -50,5 +50,6 @@ Transactions
 Task 2
 Create a PowerPoint presentation wihch outlines the approach we will be taking to identify which of the 1000 customers Sprocket Central Pty Ltd should target, based on this dataset. Explain the three phases:  Data Exploration; Model Development and Interpretation.
 
+Provided with 
 Task 3
 Please develop a dashboard that displays your data summary and results of the analysis (see tools/references for assistance). Specifically, your presentation should specify who Sprocket Central Pty Ltd' should be targeting out of the new 1000 customer list. 
