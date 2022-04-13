@@ -40,8 +40,12 @@ NewCustomerList
 CustomerAddress
 1. 'Customer Id has 3 customer records missing. (Id: 3, 22, 23)
 2. 'State' has name disparity seeing. New South Wales and Victoria is written as NSW and VIC as well as the full spelling. It is better to have it in abbreviated format
-3.  
 
+Transactions
+1. 'Online_order' has blank records. It should only be true or false
+2. 'Product_id' is not correctly mapped to product leaving brand, product_size, and product class blank
+3. Many 'standard_cost' records are blank and in the wrong format i.e., without the dollar sign
+4. 'product first sold date' column is not in the date format and has empty records
 
 Task 2
 Create a PowerPoint presentation wihch outlines the approach we will be taking to identify which of the 1000 customers Sprocket Central Pty Ltd should target, based on this dataset. Explain the three phases:  Data Exploration; Model Development and Interpretation.
