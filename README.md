@@ -21,9 +21,13 @@ Uniqueness: Records that are duplicated
 
 My findings while assessing data
 CustomerDemographics:
-1. There are 126 Records with 'Last name' as Blank which is not a good practice.
-2. In gender column, expected values are only 2 - Female and Male. Some values have the wrong spelling and some values are present where Female is denoted by F and Male by M. The column needs to have one format values only, either Male/Female or M/F.
-3. 
+1. There are 126 Records with 'Last name' as Blank which is not a good practice
+2. In gender column, expected values are only 2 - Female and Male. Some values have the wrong spelling and some values are present where Female is denoted by F and Male by M. The column needs to have one format values only, either Male/Female or M/F
+3. DOB contains one record where the birth year is 1843 which is not possible. Also there are 89 records without a DOB i.e. it is blank
+4. 500 records are missing their job titles
+5. Agriculture in job_industry_category is misspelled
+6. There is a column 'default' that has only junk characters and needs to be removed
+7. 'Tenure' column has 88 records that are blank
 
 
 Task 2
